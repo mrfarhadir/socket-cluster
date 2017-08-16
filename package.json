@@ -1,0 +1,21 @@
+{
+  "name": "socket-cluster",
+  "version": "1.0.0",
+  "description": "socket with clustering",
+  "main": "index.js",
+  "scripts": {
+    "start": "node socket-cluster.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "socket",
+    "cluster",
+    "clustering",
+    "websocket"
+  ],
+  "author": "Farhad Mehryari",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.0.3"
+  }
+}
