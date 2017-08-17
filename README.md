@@ -19,7 +19,7 @@ var sc = new sc({
   log:true,
 }).socket;
 
-sc.on("newConnect", function (client,cluster) {
+sc.on("connection", function (client,cluster) {
   console.log(`new connection :from ${cluster.id}`);
 });
 sc.on("data", function (obj,cluster) {
